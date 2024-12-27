@@ -1,0 +1,6 @@
+services:
+    ml_platform:
+        image: ml_platform:latest
+        container_name: ml_platform
+        env_file:
+            - .env
